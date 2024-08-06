@@ -1,5 +1,12 @@
+import Header from "./components/Header"
+
 export default function App() {
   return(
-    <Navbar/>
+    
+    <div>
+      <Header/>
+
+    </div>
+    
   )
 }
