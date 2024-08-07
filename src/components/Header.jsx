@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 export default function header() {
   return (
@@ -12,6 +12,7 @@ export default function header() {
         <div className='my-4 '>Bibliografia</div>
         <div className='my-4'>Membros</div>
       </section>
+      
         
     </div>
   )
