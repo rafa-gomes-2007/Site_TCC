@@ -1,12 +1,40 @@
-import Header from "./components/Header"
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+
+import Header from "./components/Header";
+import Operacao from "./pages/Operação";
+import Materiais from "./pages/Materiais";
+import Home from "./pages/Home";
+import Bibliografia from "./pages/Bibliografia";
+import Membros from "./pages/Membros";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <div><Header/><main className="flex-cols content-center px-80"><Home/></main></div>,
+  },
+  {
+    path: "/Operacao",
+    element: <div><Header/><main className="flex-cols content-center px-80"><Operacao/></main></div>,
+  },
+  {
+    path: "/Materiais",
+    element: <div><Header/><main className="flex-cols content-center px-80"><Materiais/></main></div>,
+  },
+  {
+    path: "/Bibliografia",
+    element: <div><Header/><main className="flex-cols content-center px-80"><Bibliografia/></main></div>,
+  },
+  {
+    path: "/Membros",
+    element: <div><Header/><main className="flex-cols content-center px-80"><Membros/></main></div>,
+  },
+]);
 
 export default function App() {
   return(
-    
-    <div>
-      <Header/>
-
-    </div>
-    
+    <RouterProvider router={router}/>
   )
 }
