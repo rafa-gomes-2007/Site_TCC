@@ -1,11 +1,11 @@
 import Arduino from '../assets/arduino.png'
 import Bluetooth from '../assets/bluetooth.png'
 import Mp3 from '../assets/mp3.png'
-import Switch from '../assets/switch.png'
+import Display from '../assets/display.png'
 
 function Materiais() {
   return (
-    <div className="bg-cinza-back flex items-center justify-center flex flex-col">
+    <div className="bg-cinza-back items-center justify-center flex flex-col">
         <h1 className='text-5xl pt-7'>Materiais</h1>
         <p className='pt-3'>Quais materiais foram utilizados na composição do D.A.R.P?</p>
 
@@ -48,16 +48,15 @@ function Materiais() {
         </section>
     <hr/>
         <section className='flex items-center justify-center flex flex-col space-x-4 text-justify mx-40'>
-            <h2 className='text-3xl pt-10 mb-8'>SWITCH BLUE</h2>
+            <h2 className='text-3xl pt-10 mb-8'>DISPLAY LCD</h2>
            
             <div className='flex space-x-4 grid grid-cols-2 gap-40 p-4'>  
-                <div className='bg-fundo_texto h-24 rounded-lg ml-18 mt-20 text-center mb-44'>Os switches são peças fundamentais dos teclados mecânicos, responsáveis pelo controle do contato entre as teclas e a placa do circuito.        
+                <div className='bg-fundo_texto h-24 rounded-lg ml-18 mt-20 text-center'>Um display de cristal líquido, acrônimo de LCD, é um painel fino usado para exibir informações por via eletrônica, como texto, imagens e vídeos.    
                 </div>
-                <img src={Switch} alt="imagem Mp3" className='w-80 h-80'/>
-                
+                <img src={Display} alt="imagem Mp3" className='w-64 h-68'/>   
             </div>
             
-            <h3 className='text-4xl'>R$25,85</h3>
+            <h3 className='text-4xl'>R$75,91</h3>
         </section>
     </div>
 
