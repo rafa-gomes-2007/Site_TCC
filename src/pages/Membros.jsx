@@ -1,7 +1,8 @@
-import Arthur from '../assets/Arthur.png'
+
 import Caua from '../assets/Caua.png'
 import Rafael from '../assets/Rafael.png'
 import Kayque from '../assets/Kayque.png'
+import Arthur from '/Arthur.svg'
 
 export default function Membros() {
   return (
@@ -9,9 +10,12 @@ export default function Membros() {
       <h1 className='mt-8 mb-4 text-6xl'>Membros</h1>
       <p>Quem são os integrantes que estão por trás do D.A.R.P</p>
 
-      <section className='h-1/3  w-1/3  bg-fundo_texto'>
+      <section className='  bg-fundo_texto'>
         <p>Arthur Araújo</p>
-        <img src={Arthur} alt="" className=''/>
+        <div>
+        <img src={Arthur} alt="" className='h-1/2  w-1/2'/>
+        </div>
+        
         <a href="" className="bg-black text-white w-32 h-10 items-center flex justify-center rounded-3xl">
           Veja Mais</a>
       </section>

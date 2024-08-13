@@ -13,7 +13,7 @@ function Materiais() {
             <h2 className='text-3xl pt-10 mb-8'>ARDUÍNO UNO</h2>
            
             <div className='flex space-x-4 grid grid-cols-2 gap-40'>
-                <img src={Arduino} alt="imagem arduino" className='w-80'/>
+                <img src={Arduino} alt="imagem arduino" className='w-80 pl-1 '/>
                 <div className='bg-fundo_texto h-24 rounded-lg ml-18 mt-12 text-center mb-8 pb-8'>O Arduino Uno é uma placa microcontroladora de código aberto baseada no microcontrolador Microchip ATmega328P e desenvolvida pela Arduino.cc e lançada inicialmente em 2010.         
                 </div>
             </div>
