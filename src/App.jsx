@@ -13,23 +13,23 @@ import Membros from "./pages/Membros";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div><Header/><main className="flex-cols content-center"><Home/></main></div>,
+    element: <div className="bg-cinza-back"><Header/><main className="flex-cols content-center"><Home/></main></div>,
   },
   {
     path: "/Operacao",
-    element: <div><Header/><main className="flex-cols content-center"><Operacao/></main></div>,
+    element: <div className="bg-cinza-back"><Header/><main className="flex-cols content-center"><Operacao/></main></div>,
   },
   {
     path: "/Materiais",
-    element: <div><Header/><main className="flex-cols content-center"><Materiais/></main></div>,
+    element: <div className="bg-cinza-back"><Header/><main className="flex-cols content-center"><Materiais/></main></div>,
   },
   {
     path: "/Bibliografia",
-    element: <div><Header/><main className="flex-cols content-center"><Bibliografia/></main></div>,
+    element: <div className="bg-cinza-back"><Header/><main className="flex-cols content-center"><Bibliografia/></main></div>,
   },
   {
     path: "/Membros",
-    element: <div><Header/><main className="flex-cols content-center"><Membros/></main></div>,
+    element: <div className="bg-cinza-back"><Header/><main className="flex-cols content-center"><Membros/></main></div>,
   },
 ]);
 
