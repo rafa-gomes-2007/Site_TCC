@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 export default function header() {
   return (
-    <div className="bg-fundo_nav w-full">
+    <div className="bg-fundo_nav w-full font-Questrial">
 
       <header className='flex items-center h-[150px] text-cinza_fonte rounded-b-2xl' >
 

@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family:Questrial-Regular ;
+    src: url('./fonts/Questrial/Questrial-Regular.ttf') format("opentype");
+    font-family: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family:Roboto-Flex ;
+    src: url('./fonts/Roboto-Flex/RobotoFlex-VariableFont_GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf') format("opentype");
+    font-family: normal;
+    font-display: swap;
+}

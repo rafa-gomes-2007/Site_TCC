@@ -6,7 +6,7 @@ import Prot5 from '../assets/prot5.png';
 
 export default function Operação() {
   return (
-    <main className='flex-col justify-center items-center'>
+    <main className='flex-col justify-center items-center font-Questrial'>
 
       <section className='flex-col justify-center mt-[23px]'>
           <h1 className='text-center text-[164px] max-lg:text-[70px]'>Operação</h1>

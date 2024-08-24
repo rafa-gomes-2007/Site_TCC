@@ -11,7 +11,12 @@ module.exports = {
         'fundo_nav' : '#1E1E1E',
         'fundo_texto' : '#D9D9D9',
         'linha' : '#D9D9D9'
-      }
+      },
+
+      fontFamily: {
+        'Questrial': ['Questrial-Regular' , 'sans-serif'],
+        'Roboto-Flex': ['Roboto-Flex' , 'sans serif']
+      },
     },
   },
   plugins: [],

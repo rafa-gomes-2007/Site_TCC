@@ -7,10 +7,10 @@ export default function Membros() {
   return (
 
 
-    <main className="items-center justify-center flex flex-col w-screen">
+    <main className="items-center justify-center flex flex-col w-screen font-Questrial">
 
-      <h1 className='mt-8 mb-4 text-6xl'>Membros</h1>
-      <p className='mb-16 text-2xl'>Quem são os integrantes que estão por trás do D.A.R.P</p>
+      <h1 className='mt-8 text-[164px]'>Membros</h1>
+      <p className='mb-20 text-[32px]'>Quem são os integrantes que estão por trás do D.A.R.P</p>
 
       <section className='flex justify-around gap-40 pb-32'>
 
