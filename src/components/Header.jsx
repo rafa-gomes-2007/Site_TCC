@@ -8,7 +8,7 @@ export default function header() {
 
         <h2 className='justify-start mb-[2px] ml-[30px] mr-[10px] text-[70px] text-cinza_fonte max-lg:text-[30px]'>D.A.R.P</h2>
 
-        <ul className='flex justify-center gap-5 mx-auto grow'>
+        <ul className='flex justify-center gap-5 mx-auto grow space-x-14'>
           <li>
             <Link to={"/Operacao"} className='text-[32px] max-lg:text-[20px]'>Operação</Link>
           </li>

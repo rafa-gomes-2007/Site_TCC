@@ -9,7 +9,7 @@ export default function Membros() {
 
     <main className="items-center justify-center flex flex-col w-screen font-Questrial">
 
-      <h1 className='mt-8 text-[164px]'>Membros</h1>
+      <h1 className='mt-8 text-[164px]'>MEMBROS</h1>
       <p className='mb-20 text-[32px]'>Quem são os integrantes que estão por trás do D.A.R.P</p>
 
       <section className='flex justify-around gap-40 pb-32'>

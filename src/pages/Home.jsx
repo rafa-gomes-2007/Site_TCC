@@ -14,7 +14,7 @@ export default function Home() {
       <hr className='bg-[#D9D9D9] mt-[100px] mx-[120px] h-[8px]'/>
 
       <div className="flex-col items-center mt-[80px]">
-        <h2 className="text-[96px] text-center my-auto max-lg:text[65px] font-Roboto-Flex">Objetivo</h2>
+        <h2 className="text-[96px] text-center my-auto max-lg:text[65px] Roboto-Flex">Objetivo</h2>
         <p className="text-[32px] text-center mt-[15px] max-lg:[16px] font-Questrial">Quais são o nosso objetivo com esse produto?</p>
         <section className="flex columns-3 justify-center mt-[100px] max-lg:flex-col max-lg:columns-1 max-lg:space-y-10 font-Questrial">
           <div className="text-center bg-gradient-to-b from-[#FFFEFE] via-[#F3F2F2] to-pink-[#D9D9D9] w-[470px] ml-auto px-5
@@ -44,7 +44,7 @@ export default function Home() {
       <hr className='bg-[#D9D9D9] mt-[100px] mx-[120px] h-[8px]'/>
 
       <section className="flex-col items-center mt-[50px]">
-        <h2 className="text-[96px] text-center my-auto max-lg:text-[65px] font-Roboto-Flex">Público Alvo</h2>
+        <h2 className="text-[96px] text-center my-auto max-lg:text-[65px] Roboto-Flex">Público Alvo</h2>
         <p className="text-[32px] text-center mb-[80px] max-lg:text-[16px] font-Questrial">A quem pretendemos entregar nosso produto final</p>
         <p className="text-[32px] bg-[#D9D9D9] mb-[100px] px-[20px] py-[20px] mx-[100px] rounded-lg max-lg:text-[14px] font-Questrial">Este público inclui pessoas de todas as idades que sofrem de transtornos de ansiedade, ataques de pânico, fobias, estresse crônico e outras condições relacionadas. Essas pessoas muitas vezes enfrentam dificuldades em lidar com situações cotidianas, relacionamentos pessoais e profissionais, e podem sentir-se sobrecarregadas pela intensidade de suas emoções.</p>
       </section>
@@ -52,7 +52,7 @@ export default function Home() {
       <hr className='bg-[#D9D9D9] mt-[100px] mx-[120px] h-[8px]'/>
 
       <section className="flex-col items-center mt-[50px]">
-        <h2 className="text-[96px] text-center my-auto max-lg:text-[65px] font-Roboto-Flex">Diferencial</h2>
+        <h2 className="text-[96px] text-center my-auto max-lg:text-[65px] Roboto-Flex">Diferencial</h2>
         <p className="text-[32px] text-center mb-[80px] max-lg:text-[16px] font-Questrial">Pontos que podemos oferecer a mais </p>
         <ul className="flex-col columns-1 items-center text-center mx-auto justify-center font-Questrial">
           <li className="text-[32px] bg-[#D9D9D9] mb-[50px] mx-auto px-[20px] py-[20px] rounded-lg w-[1006px] max-lg:text-[18px] max-lg:w-[369px]">Alta Mobilidade</li>

@@ -9,7 +9,7 @@ export default function Operação() {
     <main className='flex-col justify-center items-center font-Questrial'>
 
       <section className='flex-col justify-center mt-[23px]'>
-          <h1 className='text-center text-[164px] max-lg:text-[70px]'>Operação</h1>
+          <h1 className='text-center text-[164px] max-lg:text-[70px]'>OPERAÇÃO</h1>
           <h2 className='text-center text-[32px] pt-[10px] pb-[76px] max-lg:text-[20px]'>Como operar o D.A.R.P?</h2>
 
           <h3 className='text-center text-[32px] bg-[#D9D9D9] rounded-lg px-10 py-10 mx-[80px] max-lg:text-[14px]'>Este dispositivo é projetado para ajudar pessoas com certos transtornos a controlar e reduzir comportamentos compulsivos, ansiedade exacerbada em momentos inoportunos, verificar portas várias vezes, lavar as mãos excessivamente e momentos de pânico. O D.A.R.P inclui as seguintes características:</h3>
