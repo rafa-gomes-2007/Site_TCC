@@ -20,7 +20,7 @@ export default function Membros() {
 
           <img src={Arthur} alt="Arthur" className='w-3/5  h-3/5'/>
           
-          <a href="" className="bg-[#495057] text-white items-center flex justify-center rounded-[50px] text-[38px] px-8 py-4 max-lg:text-[24px] max-lg:px-4 max-lg:py-2">Veja Mais</a>
+          <a href="https://www.instagram.com/artu_rodriguess/" className="bg-[#495057] text-white items-center flex justify-center rounded-[50px] text-[38px] px-8 py-4 max-lg:text-[24px] max-lg:px-4 max-lg:py-2">Veja Mais</a>
 
         </div>
 
@@ -29,7 +29,7 @@ export default function Membros() {
 
           <img src={Kayque} alt="Kayque" className='w-3/5  h-3/5'/>
           
-          <a href="" className="bg-[#495057] text-white items-center flex justify-center rounded-[50px] text-[38px] px-8 py-4 max-lg:text-[24px] max-lg:px-4 max-lg:py-2">Veja Mais</a>
+          <a href="https://www.instagram.com/k.henrryxz/" className="bg-[#495057] text-white items-center flex justify-center rounded-[50px] text-[38px] px-8 py-4 max-lg:text-[24px] max-lg:px-4 max-lg:py-2">Veja Mais</a>
 
         </div>
 
@@ -42,7 +42,7 @@ export default function Membros() {
 
           <img src={Rafael} alt="Rafawl" className='w-3/5  h-3/5'/>
           
-          <a href="" className="bg-[#495057] text-white items-center flex justify-center rounded-[50px] text-[38px] px-8 py-4 max-lg:text-[24px] max-lg:px-4 max-lg:py-2">Veja Mais</a>
+          <a href="https://www.instagram.com/rafa_nasc11/" className="bg-[#495057] text-white items-center flex justify-center rounded-[50px] text-[38px] px-8 py-4 max-lg:text-[24px] max-lg:px-4 max-lg:py-2">Veja Mais</a>
 
         </div>
 
@@ -51,7 +51,7 @@ export default function Membros() {
 
           <img src={Caua} alt="Caua" className='w-3/5  h-3/5'/>
           
-          <a href="" className="bg-[#495057] text-white items-center flex justify-center rounded-[50px] text-[38px] px-8 py-4 max-lg:text-[24px] max-lg:px-4 max-lg:py-2">Veja Mais</a>
+          <a href="https://www.instagram.com/schunck_ccs/" className="bg-[#495057] text-white items-center flex justify-center rounded-[50px] text-[38px] px-8 py-4 max-lg:text-[24px] max-lg:px-4 max-lg:py-2">Veja Mais</a>
 
         </div>
       </section>
