@@ -9,7 +9,7 @@ export default function Home() {
       <section className="text-center font-Questrial">
         <h1 className="text-[164px] max-lg:text-[91px]">D.A.R.P</h1>
         <p className="text-[32px] mb-20 max-lg:text-[20px]">Dispositivo de Ajuda Repetitiva Psicológica</p>
-        <p className="text-[32px] bg-[#D9D9D9] mb-[100px] px-[20px] py-[20px] mx-[100px] rounded-lg max-lg:text-[14px] max-lg:mx-[20px]">Um produto que auxilia pessoas com Transtorno Obsessivo-Compulsivo (TOC), Transtorno de Pânico (TP) e Transtorno de ansiedade generalizada (TAG) utilizando Arduíno. O dispositivo pode ser personalizado de acordo com as necessidades específicas de cada pessoa. </p>
+        <p className="text-[32px] bg-[#D9D9D9] mb-[100px] px-[20px] py-[20px] mx-[100px] rounded-lg max-lg:text-[14px] max-lg:mx-[20px] shadow-2xl">Um produto que auxilia pessoas com Transtorno Obsessivo-Compulsivo (TOC), Transtorno de Pânico (TP) e Transtorno de ansiedade generalizada (TAG) utilizando Arduíno. O dispositivo pode ser personalizado de acordo com as necessidades específicas de cada pessoa. </p>
       </section>
 
       <hr className='bg-[#D9D9D9] mt-[100px] mx-[120px] h-[8px] max-lg:mx-[30px]'/>
@@ -46,7 +46,7 @@ export default function Home() {
       <section className="flex-col items-center mt-[50px]">
         <h2 className="text-[96px] text-center my-auto max-lg:text-[65px] Roboto-Flex">Público Alvo</h2>
         <p className="text-[32px] text-center mb-[80px] max-lg:text-[16px] font-Questrial">A quem pretendemos entregar nosso produto final</p>
-        <p className="text-[32px] text-center bg-[#D9D9D9] mb-[100px] px-[20px] py-[20px] mx-[100px] rounded-lg max-lg:text-[14px] max-lg:mx-[20px] font-Questrial">Este público inclui pessoas de todas as idades que sofrem de transtornos de ansiedade, ataques de pânico, fobias, estresse crônico e outras condições relacionadas. Essas pessoas muitas vezes enfrentam dificuldades em lidar com situações cotidianas, relacionamentos pessoais e profissionais, e podem sentir-se sobrecarregadas pela intensidade de suas emoções.</p>
+        <p className="text-[32px] text-center bg-[#D9D9D9] mb-[100px] px-[20px] py-[20px] mx-[100px] rounded-lg max-lg:text-[14px] max-lg:mx-[20px] font-Questrial shadow-2xl">Este público inclui pessoas de todas as idades que sofrem de transtornos de ansiedade, ataques de pânico, fobias, estresse crônico e outras condições relacionadas. Essas pessoas muitas vezes enfrentam dificuldades em lidar com situações cotidianas, relacionamentos pessoais e profissionais, e podem sentir-se sobrecarregadas pela intensidade de suas emoções.</p>
       </section>
 
       <hr className='bg-[#D9D9D9] mt-[100px] mx-[120px] h-[8px] max-lg:mx-[30px]'/>
@@ -55,10 +55,10 @@ export default function Home() {
         <h2 className="text-[96px] text-center my-auto max-lg:text-[65px] Roboto-Flex">Diferencial</h2>
         <p className="text-[32px] text-center mb-[80px] max-lg:text-[16px] font-Questrial">Pontos que podemos oferecer a mais </p>
         <ul className="flex-col columns-1 items-center text-center mx-[100px] justify-center font-Questrial max-lg:mx-[20px]">
-          <li className="text-[32px] bg-[#D9D9D9] mb-[50px] mx-auto px-[20px] py-[20px] rounded-lg max-lg:text-[18px] ">Alta Mobilidade</li>
-          <li className="text-[32px] bg-[#D9D9D9] mb-[50px] px-[20px] py-[20px] mx-auto rounded-lg max-lg:text-[18px] ">Ajuda Imediata</li>
-          <li className="text-[32px] bg-[#D9D9D9] mb-[50px] px-[20px] py-[20px] mx-auto rounded-lg max-lg:text-[18px] ">Organizador</li>
-          <li className="text-[32px] bg-[#D9D9D9] mb-[50px] px-[20px] py-[20px] mx-auto rounded-lg max-lg:text-[18px] ">Botão de Emergência</li>
+          <li className="text-[32px] bg-[#D9D9D9] mb-[50px] mx-auto px-[20px] py-[20px] rounded-lg max-lg:text-[18px] shadow-2xl">Alta Mobilidade</li>
+          <li className="text-[32px] bg-[#D9D9D9] mb-[50px] px-[20px] py-[20px] mx-auto rounded-lg max-lg:text-[18px] shadow-2xl">Ajuda Imediata</li>
+          <li className="text-[32px] bg-[#D9D9D9] mb-[50px] px-[20px] py-[20px] mx-auto rounded-lg max-lg:text-[18px] shadow-2xl">Organizador</li>
+          <li className="text-[32px] bg-[#D9D9D9] mb-[50px] px-[20px] py-[20px] mx-auto rounded-lg max-lg:text-[18px] shadow-2xl">Botão de Emergência</li>
         </ul>
       </section>
     </main>

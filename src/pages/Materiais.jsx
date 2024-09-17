@@ -14,7 +14,7 @@ function Materiais() {
            
             <div className='flex-col columns-2 font-Questrial mx-auto max-lg:columns-1'>
                 <img src={Arduino} alt="imagem arduino" className='flex justify-center mx-auto w-[380px] mb-20 max-lg:w-[299px] max-lg:h-[235px]'/>
-                <p className= 'flex justify-center mx-auto bg-fundo_texto text-[28px] rounded-lg mt-12 text-center mb-20 py-8 px-8 mr-10 max-lg:ml-10 max-lg:text-[18px]'>O Arduino Uno é uma placa microcontroladora de código aberto baseada no microcontrolador Microchip ATmega328P e desenvolvida pela Arduino.cc e lançada inicialmente em 2010.         
+                <p className= 'flex justify-center mx-auto bg-fundo_texto text-[28px] rounded-lg mt-12 text-center mb-20 py-8 px-8 mr-10 max-lg:ml-10 max-lg:text-[18px] shadow-2xl'>O Arduino Uno é uma placa microcontroladora de código aberto baseada no microcontrolador Microchip ATmega328P e desenvolvida pela Arduino.cc e lançada inicialmente em 2010.         
                 </p>
             </div>
             
@@ -27,7 +27,7 @@ function Materiais() {
             <h2 className='flex justify-center text-[50px] pt-10 mb-24 Roboto-Flex max-lg:text-[40px]'>MÓDULO BLUETOOTH</h2>
            
             <div className=' columns-2 font-Questrial max-lg:columns-1 max-lg:space-y-[40px]'>
-                <p className='flex justify-center bg-fundo_texto text-[28px] rounded-lg mx-auto mt-12 ml-10 px-8 py-8 text-center max-lg:mr-10 max-lg:text-[18px]'>O Módulo Bluetooth permite a comunicação entre o arduino e outros dispositivos bluetooth por meio de transferência de dados Serial TTL.        
+                <p className='flex justify-center bg-fundo_texto text-[28px] rounded-lg mx-auto mt-12 ml-10 px-8 py-8 text-center max-lg:mr-10 max-lg:text-[18px] shadow-2xl'>O Módulo Bluetooth permite a comunicação entre o arduino e outros dispositivos bluetooth por meio de transferência de dados Serial TTL.        
                 </p>
                 <img src={Bluetooth} alt="imagem bluetooth" className='flex justify-center mx-auto w-[300px] max-lg:w-[182px] max-lg:h-[208px]'/>
             </div>
@@ -42,7 +42,7 @@ function Materiais() {
            
             <div className='columns-2 font-Questrial max-lg:columns-1 max-lg:space-y-[40px]'>  
                 <img src={Mp3} alt="imagem Mp3" className='mx-auto w-[450px] max-lg:w-[374px] max-lg:h-[286px]'/>
-                <p className='bg-fundo_texto text-[28px] rounded-lg mr-10 mt-12 px-8 py-8 text-center max-lg:ml-10 max-lg:text-[18px]'>O módulo MP3 Arduino é utilizado para armazenamento e reprodução de arquivos de áudio. Esse módulo é composto pelo WTV020-SD que é um circuito microcontrolado para gravação de voz.        
+                <p className='bg-fundo_texto text-[28px] rounded-lg mr-10 mt-12 px-8 py-8 text-center max-lg:ml-10 max-lg:text-[18px] shadow-2xl'>O módulo MP3 Arduino é utilizado para armazenamento e reprodução de arquivos de áudio. Esse módulo é composto pelo WTV020-SD que é um circuito microcontrolado para gravação de voz.        
                 </p>
             </div>
             
@@ -55,7 +55,7 @@ function Materiais() {
             <h2 className='flex justify-center text-[50px] pt-10 mb-24 Roboto-Flex max-lg:text-[40px]'>DISPLAY LCD</h2>
            
             <div className='columns-2 p-10 font-Questrial max-lg:space-y-[40px] max-lg:columns-1'>  
-                <p className='bg-fundo_texto text-[28px] rounded-lg mx-auto ml-10 mt-12 px-8 py-8 text-center max-lg:text-[18px]'>Um display de cristal líquido, acrônimo de LCD, é um painel fino usado para exibir informações por via eletrônica, como texto, imagens e vídeos.    
+                <p className='bg-fundo_texto text-[28px] rounded-lg mx-auto ml-10 mt-12 px-8 py-8 text-center max-lg:text-[18px] shadow-2xl'>Um display de cristal líquido, acrônimo de LCD, é um painel fino usado para exibir informações por via eletrônica, como texto, imagens e vídeos.    
                 </p>
                 <img src={Display} alt="imagem Mp3" className='mx-auto w-[450px] max-lg:w-[478px] max-lg:h-[349.01px]'/>   
             </div>

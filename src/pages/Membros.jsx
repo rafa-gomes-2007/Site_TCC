@@ -14,7 +14,7 @@ export default function Membros() {
 
       <section className='flex justify-around gap-40 pb-32 max-lg:flex-col max-lg:columns-1'>
 
-        <div className='bg-fundo_texto py-8 justify-center items-center flex-col flex w-[480px] rounded-[50px] space-y-12 max-lg:w-[318px] max-lg:h-[334] max-lg:space-y-1'>
+        <div className='bg-fundo_texto py-8 justify-center items-center flex-col flex w-[480px] rounded-[50px] space-y-12 max-lg:w-[318px] max-lg:h-[334] max-lg:space-y-1 shadow-2xl'>
           
           <h2 className='text-[52px] max-lg:text-[32px]'>Arthur Araújo</h2>
 
@@ -24,7 +24,7 @@ export default function Membros() {
 
         </div>
 
-        <div className='bg-fundo_texto py-8 justify-center items-center flex-col flex w-[480px] rounded-[50px] space-y-12 max-lg:w-[318px] max-lg:h-[334] max-lg:space-y-1'>
+        <div className='bg-fundo_texto py-8 justify-center items-center flex-col flex w-[480px] rounded-[50px] space-y-12 max-lg:w-[318px] max-lg:h-[334] max-lg:space-y-1 shadow-2xl'>
           <h2 className='text-[52px] max-lg:text-[32px]'>Kayque Henrry</h2>
 
           <img src={Kayque} alt="Kayque" className='w-3/5  h-3/5'/>
@@ -37,7 +37,7 @@ export default function Membros() {
 
 
       <section className='flex justify-around gap-40 pb-12 max-lg:flex-col max-lg:columns-1'>
-        <div className='bg-fundo_texto py-8 justify-center items-center flex-col flex w-[480px] rounded-[50px] space-y-12 max-lg:w-[318px] max-lg:h-[334] max-lg:space-y-1'>
+        <div className='bg-fundo_texto py-8 justify-center items-center flex-col flex w-[480px] rounded-[50px] space-y-12 max-lg:w-[318px] max-lg:h-[334] max-lg:space-y-1 shadow-2xl'>
           <p className='text-[52px] max-lg:text-[32px]'>Rafael Gomes</p>
 
           <img src={Rafael} alt="Rafawl" className='w-3/5  h-3/5'/>
@@ -46,7 +46,7 @@ export default function Membros() {
 
         </div>
 
-        <div className='bg-fundo_texto py-8 justify-center items-center flex-col flex w-[480px] rounded-[50px] space-y-12 max-lg:w-[318px] max-lg:h-[334] max-lg:space-y-1'>
+        <div className='bg-fundo_texto py-8 justify-center items-center flex-col flex w-[480px] rounded-[50px] space-y-12 max-lg:w-[318px] max-lg:h-[334] max-lg:space-y-1 shadow-2xl'>
           <p className='text-[52px] max-lg:text-[32px]'>Cauã Schunck</p>
 
           <img src={Caua} alt="Caua" className='w-3/5  h-3/5'/>
