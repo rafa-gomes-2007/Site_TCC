@@ -19,7 +19,7 @@ export default function Operação() {
 
       <section className='flex-col columns-2 justify-center items-center mt-[100px] mx-[80px] max-lg:columns-1 max-lg:mt-[25px] max-lg:mx-[20px]'>
         <div className='justify-center'>
-          <img className='w-[55%] h-[55%] mb-[220px] mx-auto mt-5 max-lg:w-[220px] max-lg:h-[345px] max-lg:object-bottom' src={Prot1} alt="" />
+          <img className='w-[55%] h-[55%] mb-[220px] mx-auto mt-5 max-lg:w-[220px] max-lg:h-[345px] max-lg:mb-[30px]' src={Prot1} alt="" />
         </div>
 
         <div className='flex-col grow-0 max-lg:mr-0 justify-center items-center text-center'>
