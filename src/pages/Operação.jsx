@@ -6,9 +6,9 @@ import Prot5 from '../assets/prot5.png';
 
 export default function Operação() {
   return (
-    <main className='flex-col justify-center items-center font-Questrial'>
+    <main className='flex-col justify-center items-center font-Questrial mt-[150px] max-lg:mt-[80px]'>
 
-      <section className='flex-col justify-center mt-[23px]'>
+      <section className='flex-col justify-center'>
           <h1 className='text-center text-[100px] max-lg:text-[50px]'>OPERAÇÃO</h1>
           <p className='text-center text-[24px] pt-[10px] pb-[76px] max-lg:text-[16px]'>Como operar o D.A.R.P?</p>
 
