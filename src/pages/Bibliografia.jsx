@@ -1,8 +1,8 @@
 export default function Bibliografia() {
   return (
-    <div className="bg-cinza-back items-center justify-center flex flex-col w-screen px-4 md:px-8">
+    <div className="bg-cinza-back items-center justify-center flex flex-col w-screen px-4 md:px-8 mt-[150px] max-lg:mt-[80px]">
 
-      <h1 className="mt-16 text-[80px] text-center pb-8 font-Questrial max-lg:text-[40px]">BIBLIOGRAFIA</h1>
+      <h1 className="text-[80px] text-center pb-8 font-Questrial max-lg:text-[40px]">BIBLIOGRAFIA</h1>
       <p className="mt-2 mb-16 text-center text-[30px] font-Questrial max-lg:text-[18px]">De onde tiramos tudo isso?</p>
 
       <div className="items-center justify-center flex flex-col bg-fundo_texto rounded-3xl p-4 md:p-6  mb-20 w-full max-w-[1100px] shadow-2xl">
