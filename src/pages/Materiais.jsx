@@ -5,8 +5,8 @@ import Display from '../assets/Display.svg'
 
 function Materiais() {
   return (
-    <div className="flex flex-col bg-cinza-back items-center justify-center">
-        <h1 className='text-[90px] pt-7 font-Questrial max-lg:text-[50px]'>MATERIAIS</h1>
+    <div className="flex flex-col bg-cinza-back items-center justify-center mt-[150px] max-lg:mt-[80px]">
+        <h1 className='text-[90px] font-Questrial max-lg:text-[50px]'>MATERIAIS</h1>
         <p className=' text-center mx-[10px] pt-3 pb-20 text-[26px] font-Questrial max-lg:text-[18px]'>Quais materiais foram utilizados na composição do D.A.R.P?</p>
 
         <section className='flex-col items-center justify-center text-justify mx-40 w-full'>
