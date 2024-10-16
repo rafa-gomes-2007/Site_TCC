@@ -4,7 +4,7 @@ import Mul from "../assets/auxiliar-de-marcha 1.png";
 
 export default function Home() {
   return (
-    <main className="flex-col justify-center items-center mt-5">
+    <div className="flex-col justify-center items-center mt-[150px] max-lg:mt-[80px]">
 
       <section className="text-center font-Questrial">
         <h1 className="text-[100px] max-lg:text-[50px]">D.A.R.P</h1>
@@ -18,8 +18,8 @@ export default function Home() {
         <h2 className="text-[60px] text-center my-auto max-lg:text-[48px] Roboto-Flex">Objetivo</h2>
         <p className=" text-[28px] text-center mt-[15px] max-lg:text-[14px] font-Questrial">Quais são o nosso objetivo com esse produto?</p>
         
-        <section className="flex columns-3 justify-center mt-[100px] max-lg:flex-col max-lg:columns-1 max-lg:space-y-10 font-Questrial">
-          <card className="text-center bg-gradient-to-b from-[#FFFEFE] via-[#F3F2F2] to-pink-[#D9D9D9] w-[470px] space-y-[50px] ml-auto px-5
+        <section className="flex columns-3 justify-center mt-[100px] mx-[5px] max-lg:flex-col max-lg:columns-1 max-lg:space-y-10 font-Questrial">
+          <card className="text-center bg-gradient-to-b from-[#FFFEFE] via-[#F3F2F2] to-pink-[#D9D9D9] w-[470px] space-y-[50px] ml-auto mr-[5px] px-5
           py-5 shadow-2xl rounded-lg max-lg:w-[40%] max-lg:mx-auto max-lg:space-y-[25px] max-[426px]:w-[75%] max-[325px]:w-[90%]">
             <h3 className="text-[34px] max-lg:text-[22px]">Tratamento</h3>
             <img className="mx-auto my-[10px] max-lg:my-5 w-[120px] max-lg:w-[70px] max-lg:h-[73px]" src={Cruz} alt="" />
@@ -33,7 +33,7 @@ export default function Home() {
             <p className="font-Questrial text-justify text-[22px] mx-auto max-lg:text-[12px] max-lg:tracking-[0.25rem]"> Nosso compromisso é fornecer uma experiência minimalista e acessível a qualquer indivíduo que usufrua de nosso produto, site ou aplicativo. <br /> <br /> Isso porque o público alvo que está sendo visado, pode ter T.O.C. Ou seja, se incomodar com o qualquer tipo de design que não seja optimizado para ele(a).</p>
           </card>
 
-          <card className="text-center bg-gradient-to-b from-[#FFFEFE] via-[#F3F2F2] to-pink-[#D9D9D9] w-[470px] space-y-[50px] mr-auto px-5
+          <card className="text-center bg-gradient-to-b from-[#FFFEFE] via-[#F3F2F2] to-pink-[#D9D9D9] w-[470px] space-y-[50px] mr-auto ml-[5px] px-5
           py-5 shadow-2xl rounded-lg max-lg:w-[40%] max-lg:mx-auto max-lg:space-y-[25px] max-lg:h-[456px] max-[426px]:w-[75%] max-[325px]:w-[90%]">
             <h3 className="text-[34px] max-lg:text-[24px]" >Auxiliar</h3>
             <img className="mx-auto my-[10px] w-[120px] max-lg:w-[71px] max-lg:h-[72px]" src={Mul} alt="" />
@@ -62,6 +62,6 @@ export default function Home() {
           <li className="text-[22px] bg-[#D9D9D9] w-[820px] mb-[50px] px-[20px] py-[20px] mx-auto rounded-lg max-sm:w-[90%] max-lg:w-[60%] max-lg:text-[16px] shadow-2xl max-lg:py-[10px]">Botão de Emergência</li>
         </ul>
       </section>
-    </main>
+    </div>
   )
 }
