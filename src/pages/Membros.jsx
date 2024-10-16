@@ -7,9 +7,9 @@ export default function Membros() {
   return (
 
 
-    <main className="items-center justify-center flex flex-col w-screen font-Questrial">
+    <div className="items-center justify-center flex flex-col w-screen font-Questrial mt-[150px] max-lg:mt-[80px]">
 
-      <h1 className='mt-8 text-[90px] max-lg:text-[48px]'>MEMBROS</h1>
+      <h1 className='text-[90px] max-lg:text-[48px]'>MEMBROS</h1>
       <p className='text-center mb-20 text-[32px] max-lg:text-[18px] max-lg:mx-[40px]'>Quem são os integrantes que estão por trás do D.A.R.P</p>
 
       <section className='flex justify-around gap-40 pb-32 max-lg:flex-col max-lg:columns-1'>
@@ -57,7 +57,7 @@ export default function Membros() {
       </section>
       
 
-    </main>
+    </div>
 
     
    )
