@@ -37,7 +37,7 @@ export default function Operação() {
       <hr className='bg-[#D9D9D9] mt-[100px] mx-[120px] h-[8px] mb-20 max-lg:mt-[25px] max-lg:mx-[35px]'/>
 
       <section className='flex-col columns-2 items-center justify-center max-lg:columns-1 max-lg:mx-[20px]'>
-        <p className='font-Questrial text-[20px] bg-[#D9D9D9] rounded-lg px-[25px] py-[20px] text-center mb-[320px] mt-[240px] ml-[100px] max-lg:text-[12px] max-lg:mt-[25px] max-lg:mb-[25px] max-lg:mx-auto shadow-2xl'>Visando um de seus principais objetivos, sendo ele “simplicidade”, em suas laterais direta e esquerda, D.A.R.P aproveita de um simples layout. Sendo simples e induzível para ligar/desligar. Sem contar com a facilidade para aumentar ou reduzir o volume.</p>
+        <p className='font-Questrial text-[20px] bg-[#D9D9D9] rounded-lg px-[25px] py-[20px] text-center mb-[320px] mt-[50%] ml-[100px] max-lg:text-[12px] max-lg:mt-[25px] max-lg:mb-[25px] max-lg:mx-auto shadow-2xl'>Visando um de seus principais objetivos, sendo ele “simplicidade”, em suas laterais direta e esquerda, D.A.R.P aproveita de um simples layout. Sendo simples e induzível para ligar/desligar. Sem contar com a facilidade para aumentar ou reduzir o volume.</p>
 
         <div className=''>
           <img className='w-[60%] h-[60%] mx-auto max-lg:w-[220px] max-lg:h-[345px]' src={Prot2} alt="" />
@@ -75,7 +75,10 @@ export default function Operação() {
           <img className='w-[45%] h-[450%] mx-auto max-lg:w-[260px] max-lg:h-[355px]' src={Prot5} alt="" />
         </div>
 
-        <p className='font-Questrial text-center text-[20px] bg-[#D9D9D9] rounded-lg py-5 px-[40px] mt-auto w-[80%] max-lg:text-[12px] max-lg:mt-[25px] max-lg:mx-auto shadow-2xl'>Para indivíduos que possuem Transtorno Obsessivo Compulsivo, uma capa foi planejada para que a higiene do D.A.R.P possa ser mantida. Está capa é feita de silicone, um material satisfatório ao tocar e simples de lavar. </p>
+        <div className='flex items-center'>
+          <p className='font-Questrial text-center text-[20px] bg-[#D9D9D9] rounded-lg py-5 px-[40px] my-[20%] w-[80%] max-lg:text-[12px] max-lg:mt-[25px] max-lg:mx-auto shadow-2xl'>Para indivíduos que possuem Transtorno Obsessivo Compulsivo, uma capa foi planejada para que a higiene do D.A.R.P possa ser mantida. Está capa é feita de silicone, um material satisfatório ao tocar e simples de lavar. </p>
+        </div>
+
       </section>
 
     </main>
