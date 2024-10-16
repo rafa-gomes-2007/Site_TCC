@@ -35,33 +35,33 @@ export default function Header() {
           
       </div>
 
-      <nav className={`flex items-center justify-center space-x-10 max-lg:flex-col max-lg:bg-[#90969C] transition-all max-lg:w-full max-lg:h-auto max-lg:fixed max-lg:space-x-0 max-lg:mt-[381px] max-lg:py-5 max-lg:gap-0`} style={{ right: abrirMenu ? '0' : '-150rem' }}>
+      <nav className={`flex items-center justify-center space-x-10 max-lg:flex-col max-lg:bg-[#90969C] transition-all max-lg:w-full max-lg:h-auto max-lg:fixed max-lg:space-x-0 max-lg:mt-[415px] max-lg:py-5 max-lg:gap-0`} style={{ right: abrirMenu ? '0' : '-150rem' }}>
 
         <hr className='bg-[#D9D9D9] h-[6px] max-lg:w-full mx-5 mb-4'/>
 
         <div className=" flex space-x-8 max-lg:flex max-lg:flex-col max-lg:columns-1 max-lg:space-y-4 max-lg:space-x-0 max-lg:justify-center">
           <div className="flex max-lg:bg-[#D9D9D9] max-lg:rounded-2xl max-lg:px-5 max-lg:items-center max-lg:justify-center">
-            <img className="mr-2 mt-[-500px] max-lg:mt-0" src={Oper} alt="" />
-            <Link to={"/Operacao"} className='text-[32px] max-lg:text-[20px] max-lg:text-[#000000] mx-auto max-lg:w-[100px] max-lg:ml-0 max-lg:mr-[2px]'>Operação</Link>
+            <img className="mr-2 mt-[-500px] max-lg:mt-[8px]" src={Oper} alt="" />
+            <Link to={"/Operacao"} className='text-[32px] max-lg:text-[20px] max-lg:text-[#000000] mx-auto max-lg:w-[100px] max-lg:ml-0 '>Operação</Link>
           </div>
 
           <div className="flex max-lg:bg-[#D9D9D9] max-lg:rounded-2xl max-lg:px-5 max-lg:items-center max-lg:justify-center">
-            <img className="mr-2 mt-[-500px] max-lg:mt-0" src={Mate} alt="" />
-            <Link to={"/Materiais"} className='text-[32px] max-lg:text-[20px] max-lg:bg-[#D9D9D9] max-lg:rounded-2xl max-lg:text-[#000000] max-lg:px-3 max-lg:w-[100px]'>Materiais</Link>
+            <img className=" mt-[-500px] max-lg:mt-[8px]" src={Mate} alt="" />
+            <Link to={"/Materiais"} className='text-[32px] max-lg:text-[20px] max-lg:bg-[#D9D9D9] max-lg:rounded-2xl max-lg:text-[#000000] max-lg:px-3 max-lg:w-[100px] max-lg:ml-0'>Materiais</Link>
           </div>
             
           <div className="flex max-lg:bg-[#D9D9D9] max-lg:rounded-2xl max-lg:px-5 max-lg:items-center">
-            <img className="mt-[-500px] max-lg:mt-0" src={BotHome} alt="" />
-            <Link to={"/"} className='text-[32px] max-lg:text-[20px] max-lg:bg-[#D9D9D9] max-lg:rounded-2xl max-lg:text-[#000000] max-lg:px-5 max-lg:text-center mx-auto max-lg:w-[100px]'>Home</Link>
+            <img className="mt-[-500px] max-lg:mt-[8px]" src={BotHome} alt="" />
+            <Link to={"/"} className='text-[32px] max-lg:text-[20px] max-lg:bg-[#D9D9D9] max-lg:rounded-2xl max-lg:text-[#000000] max-lg:px-5 max-lg:text-center mx-auto max-lg:w-[100px] max-lg:ml-0'>Home</Link>
           </div>
 
           <div className="flex max-lg:bg-[#D9D9D9] max-lg:rounded-2xl max-lg:px-5 max-lg:items-center">
-            <img className="mt-[-500px] max-lg:mt-0" src={Book} alt="" />
+            <img className="mt-[-500px] max-lg:mt-[8px]" src={Book} alt="" />
             <Link to={"/Bibliografia"} className='text-[32px] max-lg:text-[20px] max-lg:bg-[#D9D9D9] max-lg:rounded-2xl max-lg:text-[#000000] max-lg:px-5 max-lg:text-center mx-auto max-lg:w-[100px] max-lg:ml-0 max-lg:mr-[2px]'>Bibliografia</Link>
           </div>
 
           <div className="flex max-lg:bg-[#D9D9D9] max-lg:rounded-2xl max-lg:px-5 max-lg:items-center">
-            <img className="mt-[-500px] max-lg:mt-0" src={Membros} alt="" />
+            <img className="mt-[-500px] max-lg:mt-[8px]" src={Membros} alt="" />
             <Link to={"/Membros"} className='text-[32px] max-lg:text-[20px] mr-[50px] max-lg:bg-[#D9D9D9] max-lg:rounded-2xl max-lg:text-[#000000] max-lg:px-5 max-lg:text-center mx-auto max-lg:w-[100px] max-lg:ml-0 max-lg:mr-[2px]'>Membros</Link>
           </div>
           
