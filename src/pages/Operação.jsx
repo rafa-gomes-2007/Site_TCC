@@ -22,7 +22,7 @@ export default function Operação() {
 
         <div className='flex-col grow-0 max-lg:mr-0 justify-center items-center text-center'>
           <div>
-            <p className='font-Questrial text-[22px] bg-[#D9D9D9] rounded-lg px-[15px] py-[15px] text-center mb-10 max-lg:text-[14px] max-lg:mt-5'>Vários botões foram implementados. Em sua grande parte podem ser personalizados de acordo com o uso do consumidor, mas em geral, eles podem contar com:</p>
+            <p className='font-Questrial text-[22px] bg-[#D9D9D9] rounded-lg px-[15px] py-[15px] text-center mb-10 max-lg:text-[14px] max-lg:mt-5'>a Vários botões foram implementados. Em sua grande parte podem ser personalizados de acordo com o uso do consumidor, mas em geral, eles podem contar com:</p>
           </div>
           <p className='text-[20px] bg-[#D9D9D9] rounded-lg px-[20px] py-[10px] text-left mb-10 max-lg:text-[12px] shadow2xl'>A - Exercício de respiração</p>
           <p className='text-[20px] bg-[#D9D9D9] rounded-lg px-[20px] py-[10px] text-left mb-10 max-lg:text-[12px] shadow-2xl'>K - Imagens da natureza</p>
