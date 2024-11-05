@@ -1,6 +1,7 @@
 import Cruz from "../assets/cruz-vermelha 1.png";
 import Peq from "../assets/pequeno 1.png";
 import Mul from "../assets/auxiliar-de-marcha 1.png";
+import Game from "../assets/Game.mp4";
 
 export default function Home() {
   return (
@@ -61,6 +62,16 @@ export default function Home() {
           <li className="text-[22px] bg-[#D9D9D9] w-[820px] mb-[50px] px-[20px] py-[20px] mx-auto rounded-lg max-sm:w-[90%] max-lg:w-[60%] max-lg:text-[16px] shadow-2xl max-lg:py-[10px]">Organizador</li>
           <li className="text-[22px] bg-[#D9D9D9] w-[820px] mb-[50px] px-[20px] py-[20px] mx-auto rounded-lg max-sm:w-[90%] max-lg:w-[60%] max-lg:text-[16px] shadow-2xl max-lg:py-[10px]">Botão de Emergência</li>
         </ul>
+      </section>
+
+      <hr className='bg-[#D9D9D9] mt-[100px] mx-[120px] h-[8px] max-lg:mx-[30px]'/>
+
+      <section className="flex-col columns-1 justify-center items-center my-[50px]">
+        <h2 className="text-[60px] text-center my-auto max-lg:text-[48px] Roboto-Flex">Game</h2>
+        <p className="text-[24px] text-center mb-[80px] max-lg:text-[14px] font-Questrial">Vídeo demonstrativo do nosso jogo</p>
+        <video className="w-[50%] h-[40%] justify-center mx-auto rounded-lg" controls>
+          <source src={Game} type="video/mp4" />
+        </video>
       </section>
     </div>
   )
